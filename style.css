@@ -83,6 +83,11 @@ section ul li {
   margin-bottom: 5rem;
 }
 
+section ul li p {
+  font-size: 1.5rem;
+  font-weight: 500;
+} 
+
 section ul li img {
   max-width: 100%;
 }
