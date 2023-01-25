@@ -76,18 +76,27 @@ section ul {
   padding: 0;
 }
 
+.list_title {
+  height: 5rem;
+}
+
+.list_content {
+  height: 12rem;
+}
+
 section ul li {
+  max-width: 30rem;
   margin-bottom: 5rem;
 }
 
 section ul li p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 500;
 } 
 
 section ul li img {
   max-width: 100%;
-  min-width: 12rem;
+  min-width: 10rem;
 }
 
 .destinations__lists {
@@ -101,7 +110,9 @@ section ul li img {
   margin: 2rem 15rem 5rem 15rem;
 }
 
-@media screen and (max-width: 650px) {
+
+
+@media screen and (max-width:1200px) {
   header nav {
     justify-content: center!important;
     align-items: center!important;
@@ -132,3 +143,88 @@ section ul li img {
     font-weight: 500;
   } 
 } 
+
+@media screen and (max-width:995px) {
+  .margin-section {
+    margin: 2rem 1rem 5rem 1rem;
+  }
+  
+  .list_title {
+    height: 5rem;
+  }
+  
+  .list_content {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width:740px) {
+  .destinations__lists {
+   
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+   
+  }
+
+  .list_title {
+    height: 5rem;
+  }
+  
+  .list_content {
+    height: 15rem;
+  }
+
+  .list_content p {
+    font-size: 1rem;
+  }
+
+
+
+}
+
+
+
+@media screen and (max-width:563px) {
+  .destinations__lists {
+   
+    padding: 2rem 0.3rem 2rem 0.3rem;
+   
+  }
+  .list_content {
+    height: 12rem;
+  }
+  .list_content p {
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width:523px) {
+  .list_content {
+    height: 13rem;
+  }
+
+  .list_content p {
+    font-size: 0.9rem;
+  }
+}
+
+
+  @media screen and (max-width:455px) {
+  .list_content {
+    height: 12rem;
+  }
+  .list_content p {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+  .list_content {
+    height: 13rem;
+  }
+  .list_content p {
+    font-size: 1rem;
+  }
+
+}
