@@ -1,11 +1,20 @@
 :root {
   --header-section-size: 2.5rem;
+  --body_bg: #000;
+  --text-color: #FFF;
+
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  color: var(--text-color);
+  background:var(--body_bg);
+}
+
+p {
+  text-align: justify;
 }
 
 header {
@@ -34,12 +43,6 @@ header nav ul li {
 header nav ul li a {
   color: #333;
   text-decoration: none;
-}
-
-section p {
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin: 20px;
 }
 
 section h2 {
@@ -83,17 +86,23 @@ section ul {
   height: 12rem;
 }
 
-section ul li {
+.list_content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 17px;
+}
+
+.destinations__lists {
   max-width: 30rem;
   margin-bottom: 5rem;
 }
 
-section ul li p {
+.destinations__lists p {
   font-size: 1.1rem;
   font-weight: 500;
 } 
 
-section ul li img {
+.destinations__lists img {
   max-width: 100%;
   min-width: 10rem;
 }
@@ -109,6 +118,38 @@ section ul li img {
   margin: 2rem 15rem 5rem 15rem;
 }
 
+.reviews__lists {
+  width: 100%;
+}
+
+.reviews__lists-author  {
+  height: 4rem;
+}
+
+.reviews_img img {
+  border-radius: 50%;
+  max-width: 12rem;
+}
+
+.reviews__lists-content {
+  height: 11rem;
+}
+
+.reviews__lists-main {
+  border-radius:1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  box-shadow: 5px 5px 16px 1px rgb(49 46 240 / 26%);
+}
+
+.reviews__lists-main p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.about__content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 @media screen and (max-width:1200px) {
  
   header nav {
@@ -234,5 +275,8 @@ section ul li img {
   .list_content p {
     font-size: 1rem;
   }
-
+  .about__content p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
 }
