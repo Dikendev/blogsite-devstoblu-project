@@ -42,7 +42,6 @@ section p {
   margin: 20px;
 }
 
-
 section h2 {
   margin-bottom: 2rem;
   font-size: var(--header-section-size);
@@ -110,16 +109,11 @@ section ul li img {
   margin: 2rem 15rem 5rem 15rem;
 }
 
-
-
 @media screen and (max-width:1200px) {
+ 
   header nav {
-    justify-content: center!important;
-    align-items: center!important;
-  }
-  
-  header ul {
-    width: 100%;
+    flex-direction: row;
+    align-items: center;
   }
 
   header h1 {
@@ -145,6 +139,7 @@ section ul li img {
 } 
 
 @media screen and (max-width:995px) {
+
   .margin-section {
     margin: 2rem 1rem 5rem 1rem;
   }
@@ -158,11 +153,19 @@ section ul li img {
   }
 }
 
+@media screen and (max-width:768px) {
+  .navbar_title h1 {
+    font-size: 1.5rem;
+  }
+
+  header nav ul li a {
+    font-size: 0.8rem!important;
+  }
+}
+
 @media screen and (max-width:740px) {
-  .destinations__lists {
-   
+  .destinations__lists {  
     padding: 0.5rem 0.7rem 0.5rem 0.7rem;
-   
   }
 
   .list_title {
@@ -176,18 +179,25 @@ section ul li img {
   .list_content p {
     font-size: 1rem;
   }
-
-
-
 }
 
-
-
 @media screen and (max-width:563px) {
+  header nav {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+  header nav ul {
+    width: 100%;
+    justify-content: center;
+    align-items: center ;
+  }
+  
+
+
   .destinations__lists {
-   
     padding: 2rem 0.3rem 2rem 0.3rem;
-   
   }
   .list_content {
     height: 12rem;
@@ -196,7 +206,6 @@ section ul li img {
     font-size: 1rem;
   }
 }
-
 
 @media screen and (max-width:523px) {
   .list_content {
@@ -208,8 +217,7 @@ section ul li img {
   }
 }
 
-
-  @media screen and (max-width:455px) {
+@media screen and (max-width:455px) {
   .list_content {
     height: 12rem;
   }

@@ -5,14 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Document</title>
 </head>
   
   <body>
     <header id="navbar-example" class="navbar fixed-top" style="height: 5rem;" >
-      <nav class="container-fluid   justify-content-between "  >  
-          <h1>Devs2Blu BLog</h1>
+      <nav class="container justify-content-between "  >  
+        <div class="navbar_title">
+          <h1 class="animate__animated animate__rubberBand">Devs2Blu BLog</h1>
+        </div>  
           <ul class="nav nav-pills">
             <li class="nav-item" >
               <a class="nav-link " href="#destinations">Destinations</a>
@@ -26,14 +32,14 @@
 
     <div data-bs-spy="scroll" data-bs-target="navbar-example" data-bs-root-margin="0px 0px -20%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0" style="margin-top: 5rem;"> 
       <section id="destinations" class="margin-section" >
-        <h2>Featured Destinations in Blumenau Sc Brazil</h2>
+        <h2>Featured Destinations in <br> Blumenau Sc Brazil</h2>
         <div class="container-md">
           <div class="row">
             <div class="col">
               <ul>
                 <li class="destinations__lists">
                   <div class="list_title">
-                    <h3>Parque Vila Germanica</h3>
+                    <h3 class="animate__animated  animate__rubberBand">Parque Vila Germanica</h3>
                   </div>
                   <hr class="border border-primary border-3 opacity-75">
                   <img src="assets/emporio-vila-germanica.jpg" alt="Paris">
@@ -50,7 +56,7 @@
                     <h3>Museu de Arte de Blumenau</h3>
                   </div>
                   <hr class="border border-primary border-3 opacity-75">
-                  <img src="assets/Museu-de-arte-de-Blumenau.jpg" alt="Paris">
+                  <img src="assets/Museu-de-arte-de-Blumenaured.jpg" alt="Paris">
                   <div class="list_content">
                     <p>This museum has a wide range of exhibits showcasing the art and culture of the region. It's a great place to learn about the history of the city and the state of Santa Catarina.</p>
                   </div>
@@ -109,7 +115,7 @@
         </div>
       </section>
 
-
+      
       <section id="reviews" class="margin-section">
         <h2> Recent Reviews</h2>
         <div class="container">
