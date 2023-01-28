@@ -236,7 +236,7 @@ section ul {
     flex-direction: column!important;
     justify-content: space-between!important;
     align-items: center!important;
-    margin-top: 2rem;
+    margin-top: 5rem!important;
   }
 
   .header__section-title h2 {
