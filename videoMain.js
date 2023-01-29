@@ -1,28 +1,17 @@
-const canvas = document.querySelector('canvas');
-const video = document.querySelector('video');
-const fps = 60;
-const width = 1200;
-const height = 800;
-const canvasInterval = null;
+var video = document.getElementById("video");
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
 
-drawImage() ;
+// Set the canvas dimensions to match the video
+canvas.width = video.videoWidth;
+canvas.height = video.videoHeight;
 
-canvas.getContext('2d', { alpha: false }).drawImage(video, 0, 0, width, height);
+// Start playing the video
+video.play();
 
-canvasInterval = window.setInterval(() => {
-  drawImage(video);
-}, 1000 / fps);
-
-video.onpause = function() {
-  clearInterval(canvasInterval);
-};
-video.onended = function() {
-  clearInterval(canvasInterval);
-};
-
-video.onplay = function() {
-  clearInterval(canvasInterval);
-  canvasInterval = window.setInterval(() => {
-    drawImage(video);
-  }, 1000 / fps);
-};
+// Use requestAnimationFrame to redraw the canvas at 60 frames per second
+function drawFrame() {
+  ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  requestAnimationFrame(drawFrame);
+}
+requestAnimationFrame(drawFrame);
