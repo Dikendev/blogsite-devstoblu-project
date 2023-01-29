@@ -141,12 +141,12 @@ section ul {
 }
 
 .reviews__lists-author  {
-  height: 4rem;
+  height: 2rem;
 }
 
 .reviews_img img {
   border-radius: 50%;
-  max-width: 12rem;
+  max-width: 8rem;
 }
 
 .reviews__lists-content {
@@ -164,13 +164,13 @@ section ul {
   font-weight: 500;
 }
 
+.reviews__lists-author h1 {  
+  font-size: 1.3rem;
+}
+
 .about__content p {
   font-size: 1.5rem;
   font-weight: 500;
-}
-
-.reviews__list-author {
-  max-width: 150px;
 }
 
 @media screen and (max-width: 1460px) {
@@ -231,12 +231,12 @@ section ul {
   }
 } 
 
-@media screen and (max-width:995px) {
+@media screen and (max-width:991px) {
   .header {
     flex-direction: column!important;
     justify-content: space-between!important;
     align-items: center!important;
-    margin-top: 5rem!important;
+    margin-top: 6rem!important;
   }
 
   .header__section-title h2 {
@@ -251,6 +251,10 @@ section ul {
     margin-bottom: 4rem;
   }
   
+  .reviews__lists_content-body {
+    font-size: 0.75rem!important;
+  }
+
   .reviews_img img {
     max-width: 9rem;
   }
@@ -301,6 +305,10 @@ section ul {
   
   .list_content {
     height: 8rem;;
+  }
+
+  .reviews__lists-main p {
+    font-size: 0.9rem!important;
   }
 }
 
@@ -358,6 +366,8 @@ section ul {
 }
 
 @media screen and (max-width:350px) {
+  
+  
   .list_content {
     height: 11rem;
   }
