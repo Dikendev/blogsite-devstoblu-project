@@ -5,6 +5,11 @@
 
 }
 
+.dark-mode {
+  background-color: black!important;
+  color: white!important ;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
