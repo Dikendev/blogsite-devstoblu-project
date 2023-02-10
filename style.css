@@ -5,11 +5,6 @@
 
 }
 
-.dark-mode {
-  background-color: black!important;
-  color: white!important ;
-}
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -121,9 +116,10 @@ section ul {
 
 .destinations__lists {
   max-width: 30rem;
+  margin: auto;
   margin-bottom: 5rem;
-}
 
+}
 
 .destinations__lists img {
   max-width: 100%;
@@ -179,6 +175,10 @@ section ul {
 }
 
 @media screen and (max-width: 1460px) {
+  .margin-section {
+    margin: 2rem 1rem 5rem 1rem;
+  }
+  
   .video__experience {
     width: 52rem;
     height: 41rem;
