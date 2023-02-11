@@ -114,6 +114,10 @@ section ul {
   margin: 17px;
 }
 
+.padding-section {
+  padding-top: 5.5rem;
+}
+
 .destinations__lists {
   max-width: 30rem;
   margin: auto;
@@ -241,7 +245,7 @@ section ul {
     flex-direction: column!important;
     justify-content: space-between!important;
     align-items: center!important;
-    margin-top: 6rem!important;
+    padding-top: 6rem!important;
   }
 
   .header__section-title h2 {
@@ -326,24 +330,31 @@ section ul {
 }
 
 @media screen and (max-width:563px) {
+  .header {
+    padding-top: 10rem!important;
+  }
+  
   header nav {
    flex-direction: column;
    justify-content: center;
    align-items: center;
   }
+  
 
   header nav ul {
     width: 100%;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
   }
 
   .destinations__lists {
     padding: 2rem 0.3rem 2rem 0.3rem;
   }
+
   .list_content {
     height: 12rem;
   }
+
   .list_content p {
     font-size: 0.9rem;
   }
