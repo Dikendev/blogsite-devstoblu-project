@@ -1,8 +1,7 @@
 :root {
   --header-section-size: 2.5rem;
   --body_bg: #000;
-  --text-color: #FFF;
-
+  --text-color: #fff;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   color: var(--text-color);
-  background:var(--body_bg);
+  background: var(--body_bg);
 }
 
 p {
@@ -18,7 +17,7 @@ p {
 }
 
 a {
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 .navbar-brand img {
@@ -68,7 +67,7 @@ section h2 {
     #ff1361 67%,
     #fff800 100%
   );
-  display: inline-block;  
+  display: inline-block;
   -webkit-background-clip: text;
   animation: textclip 4s linear infinite;
   -webkit-text-fill-color: transparent;
@@ -94,10 +93,10 @@ section ul {
 }
 
 .header__section-title h2 {
-  margin-left: 4rem; 
+  margin-left: 4rem;
 }
 
-.video__experience  {
+.video__experience {
   width: 50rem;
   height: 35rem;
 }
@@ -129,7 +128,6 @@ section ul {
   max-width: 30rem;
   margin: auto;
   margin-bottom: 5rem;
-
 }
 
 .destinations__lists img {
@@ -139,7 +137,7 @@ section ul {
 
 .destinations__lists {
   border: 1px solid black;
-  border-radius:1rem;
+  border-radius: 1rem;
   padding: 0.5rem 2rem 0.5rem 2rem;
   box-shadow: 5px 5px 16px 1px rgb(49 46 240 / 26%);
 }
@@ -152,7 +150,7 @@ section ul {
   width: 100%;
 }
 
-.reviews__lists-author  {
+.reviews__lists-author {
   height: 2rem;
 }
 
@@ -166,7 +164,7 @@ section ul {
 }
 
 .reviews__lists-main {
-  border-radius:1rem;
+  border-radius: 1rem;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   box-shadow: 5px 5px 16px 1px rgb(49 46 240 / 26%);
 }
@@ -176,7 +174,7 @@ section ul {
   font-weight: 500;
 }
 
-.reviews__lists-author h1 {  
+.reviews__lists-author h1 {
   font-size: 1.3rem;
 }
 
@@ -189,23 +187,23 @@ section ul {
   .margin-section {
     margin: 2rem 1rem 5rem 1rem;
   }
-  
+
   .video__experience {
     width: 52rem;
     height: 41rem;
   }
 }
 
-@media screen and (max-width:1090px) {
+@media screen and (max-width: 1090px) {
   .header__section-title h2 {
-    margin-left: 1.2rem!important;  
+    margin-left: 1.2rem !important;
   }
-  
-  .video__experience  {
+
+  .video__experience {
     width: 33rem;
     height: 32rem;
   }
-  
+
   .video__experience video {
     width: 100%;
     min-block-size: -webkit-fill-available;
@@ -218,13 +216,13 @@ section ul {
 
   header h1 {
     width: 100%;
-    margin-bottom: 0.8rem;  
+    margin-bottom: 0.8rem;
   }
 
   section h2 {
     margin-bottom: 1.5rem;
     font-size: 2rem;
-    text-align: center;  
+    text-align: center;
   }
 
   .margin-section {
@@ -234,10 +232,10 @@ section ul {
   section ul li p {
     font-size: 1.2rem;
     font-weight: 500;
-  } 
+  }
   .destinations__lists {
     border: 1px solid black;
-    border-radius:1rem;
+    border-radius: 1rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
     box-shadow: 5px 5px 16px 1px rgb(49 46 240 / 26%);
   }
@@ -245,30 +243,30 @@ section ul {
   .list_content p {
     font-size: 1.6vmax;
   }
-} 
+}
 
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
   .header {
-    flex-direction: column!important;
-    justify-content: space-between!important;
-    align-items: center!important;
-    padding-top: 6rem!important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding-top: 6rem !important;
   }
 
   .header__section-title h2 {
-    margin-left: 0rem!important;  
+    margin-left: 0rem !important;
   }
-  
-  .video__experience  {
+
+  .video__experience {
     display: flex;
     justify-content: center;
     width: 35rem;
     height: 20rem;
     margin-bottom: 4rem;
   }
-  
+
   .reviews__lists_content-body {
-    font-size: 0.75rem!important;
+    font-size: 0.75rem !important;
   }
 
   .reviews_img img {
@@ -278,23 +276,19 @@ section ul {
   .margin-section {
     margin: 2rem 1rem 5rem 1rem;
   }
-  
+
   .list_title {
     height: 5rem;
   }
-  
+
   .list_content {
     height: 10rem;
   }
 }
 
-@media screen and (max-width:815px) {
-  .reviews_img img {
-    max-width: 12rem!important;
-  }
-
+@media screen and (max-width: 815px) {
   header nav ul li a {
-    font-size: 0.8rem!important;
+    font-size: 0.8rem !important;
   }
 
   .destinations__lists {
@@ -306,33 +300,33 @@ section ul {
   }
 }
 
-@media screen and (max-width:740px) {
-  .destinations__lists {  
+@media screen and (max-width: 740px) {
+  .destinations__lists {
     padding: 0.5rem 0.7rem 0.5rem 0.7rem;
   }
 
   .list_title {
     height: 5rem;
   }
-  
+
   .list_content {
-    height: 8rem;;
+    height: 8rem;
   }
 
   .reviews__lists-main p {
-    font-size: 0.9rem!important;
+    font-size: 0.9rem !important;
   }
 }
 
 @media screen and (max-width: 650px) {
   .header {
-    padding-top: 10rem!important;
+    padding-top: 10rem !important;
   }
-  
+
   header nav {
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .navbar-header {
@@ -348,15 +342,15 @@ section ul {
   .destinations__lists {
     padding: 2rem 0.3rem 2rem 0.3rem;
   }
-  
-  .video__experience  {
+
+  .video__experience {
     display: flex;
     justify-content: center;
     width: 100vw;
-  }  
+  }
 }
 
-@media screen and (max-width:563px) {
+@media screen and (max-width: 563px) {
   .list_content {
     height: 12rem;
   }
@@ -366,7 +360,7 @@ section ul {
   }
 }
 
-@media screen and (max-width:523px) {
+@media screen and (max-width: 523px) {
   .list_content {
     height: 13rem;
   }
@@ -376,7 +370,7 @@ section ul {
   }
 }
 
-@media screen and (max-width:455px) {
+@media screen and (max-width: 455px) {
   .list_content {
     height: 12rem;
   }
@@ -387,9 +381,7 @@ section ul {
   }
 }
 
-@media screen and (max-width:350px) {
-  
-  
+@media screen and (max-width: 350px) {
   .list_content {
     height: 11rem;
   }
